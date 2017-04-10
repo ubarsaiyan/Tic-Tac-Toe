@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tic - Tac - Toe</title>
+<meta name="viewport" content="width=500, initial-scale=1.0">
+<link rel="stylesheet" href="tictactoe.css"/>
+<link href="https://fonts.googleapis.com/css?family=Crete+Round|Ubuntu|Cabin|Architects+Daughter" rel="stylesheet">
+<script src="tictactoe.js"></script>
+</head>
+<body>
+<h1>Tic&nbsp-&nbspTac&nbsp-&nbspToe</h1>
+<div class="container" id="containerPlayerAndScore">
+<span class="player">
+<span id="playerO">Player O&nbsp</span>
+<span id="playerX">&nbspPlayer X</span>
+</span>
+<span class="score">
+<span id="scoreO"></span>
+<span id="scoreX"></span>
+</span>
+</div>
+<div class="container" id="containerTable">
+<div id="gameOver">
+<div id="whoWon"></div>
+<div id="restart"></div>	
+</div>
+<svg id="winLineSvg" height="450" width="450">
+<line id="winLine"/>
+</svg>
+<svg height="450" width="450">
+<line class="lines" x1="150" y1="0" x2="150" y2="450"/>
+<line class="lines" x1="300" y1="0" x2="300" y2="450"/>
+<line class="lines" x1="0" y1="150" x2="450" y2="150"/>
+<line class="lines" x1="0" y1="300" x2="450" y2="300"/>
+</svg>
+<table>
+<tr>
+<td id="0"></td>
+<td id="1"></td>
+<td id="2"></td>
+</tr>
+<tr>
+<td id="3"></td>
+<td id="4"></td>
+<td id="5"></td>
+</tr>
+<tr>
+<td id="6"></td>
+<td id="7"></td>
+<td id="8"></td>
+</tr>
+</table>
+</div> 
+</body>
+</html>
